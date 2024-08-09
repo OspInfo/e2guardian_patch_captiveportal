@@ -8,7 +8,6 @@ Versão: 1.3 - atualização URL do repositório extra oficial de plugins e adic
 Versão: 1.3 - atualização do procedimento para pfSense 2.7.2.  
 Versão: 1.2 - correções para detectar logout dos usuários e limpar cache junto ao captive portal.  
 Versão: 1.1 - publicação inicial.  
-Responsável: Luciano Rodrigues - luciano@citrait.com.br  
 
 ## Instalação:
 
@@ -67,8 +66,8 @@ ln -s /lib/libcrypto.so.30 /lib/libcrypto.so.111
 
 ### 6- Instale o patch do captive portal.  
 6.1- Acesse a página abaixo e copie todo o código:  
-```
-https://raw.githubusercontent.com/CitraIT/e2guardian_patch_captiveportal/main/patches/captiveportal.patch
+```[
+https://raw.githubusercontent.com/CurySolucoes/captiveportal_e2guardian/main/patches/captiveportal.patch
 ```
 6.2- Acesse o menu System -> Patches e clique em Add Patch.  
 6.3- Cole o código no campo Patch Contents.  
@@ -126,14 +125,14 @@ redirect_to_auth = "yes"
 ### 10- Baixar a biblioteca de rotinas da integração.  
 10.1- No menu Diagnostics -> Command Prompt execute o comando abaixo:  
 ```
-fetch -q -o /etc/inc/captive2guardian.inc https://raw.githubusercontent.com/CitraIT/e2guardian_patch_captiveportal/main/etc/inc/captive2guardian.inc
+fetch -q -o /etc/inc/captive2guardian.inc https://raw.githubusercontent.com/CurySolucoes/captiveportal_e2guardian/main/patches/captiveportal_inc.patch
 ```  
 
 
 ### 11- Aplicar o patch da biblioteca do captive portal:  
 11.1- Acesse a página abaixo e copie todo o código:  
 ```
-https://raw.githubusercontent.com/CitraIT/e2guardian_patch_captiveportal/main/patches/captiveportal_inc.patch
+https://raw.githubusercontent.com/CurySolucoes/captiveportal_e2guardian/main/patches/captiveportal_inc.patch
 ```  
 11.2- Acesse o menu System -> Patches. Clique em Add New Patch.  
 11.3- Cole o código no campo Patch Contents.  
