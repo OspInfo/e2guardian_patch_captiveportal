@@ -43,8 +43,7 @@ https://raw.githubusercontent.com/marcelloc/Unofficial-pfSense-packages/master/2
 4.7- Clique em apply no patch recem registrado.  
 4.8- No menu Diagnostics -> Command Prompt execute o comando abaixo:  
 ```
-fetch -q -o /usr/local/etc/pkg/repos/Unofficial.conf 
-https://raw.githubusercontent.com/marcelloc/Unofficial-pfSense-packages/master/Unofficial_25.conf
+fetch -q -o /usr/local/etc/pkg/repos/Unofficial.conf https://raw.githubusercontent.com/marcelloc/Unofficial-pfSense-packages/master/Unofficial_25.conf
 ```
 4.9- Ainda no menu Diagnostics -> Command Prompt execute o comando abaixo:
 ```
