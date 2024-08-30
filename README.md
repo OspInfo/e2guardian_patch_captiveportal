@@ -124,7 +124,7 @@ redirect_to_auth = "yes"
 ### 10- Baixar a biblioteca de rotinas da integração.  
 10.1- No menu Diagnostics -> Command Prompt execute o comando abaixo:  
 ```
-fetch -q -o /etc/inc/captive2guardian.inc https://raw.githubusercontent.com/CurySolucoes/e2guardian_patch_captiveportal/main/patches/captiveportal_inc.patch
+fetch -q -o /etc/inc/captive2guardian.inc https://raw.githubusercontent.com/CurySolucoes/e2guardian_patch_captiveportal/main/etc/inc/captive2guardian.inc
 ```  
 
 
